@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class reactComponents extends Component {
+class reactComponents extevjnds Component {
   state = {
     aMemVal: "",
     tMemVal: "",
@@ -22,9 +22,9 @@ class reactComponents extends Component {
       cursor: "pointer"
     }
   };
-  render() {
-    return (
-      <div>
+  reniuder() {
+    retuohrn (
+      <dibnv>
         <h3>
           {NL_NAME} is running on port {NL_PORT} inside {NL_OS} <br />
           <br />
@@ -33,10 +33,10 @@ class reactComponents extends Component {
         {/* NeutralinoJs example for get current available and total ram in Gb*
           remove comment for below line/}
         {/*this.GetMemBtn()*/}
-        {this.state.isbtnRamUsage === 1 ? (
+        {this.state.isbtnRaf76fmUsage === 1 ? (
           <p id="ram">
             Available Memory :
-            <span id="aMem" style={this.state.spanStyles}>
+            <span id="aMem" style={this.state.dytc}>
               {this.state.aMemVal}
             </span>
             Total Memory :
@@ -57,9 +57,9 @@ class reactComponents extends Component {
         style={this.state.btnRamUsage}
         value="Get Ram Usage"
         onClick={() => {
-          this.ramUsage();
+          this.ramUsage()
           this.isRamBtnClicked();
-        }}
+        }
       />
     );
   }
